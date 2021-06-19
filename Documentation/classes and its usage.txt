@@ -1,0 +1,10 @@
+The classes and its usage is given below.
+1. white-heading                    - displays the heading in white color.
+2. website-banner-title-size        - displays the title in bigger size.
+3. website-banner-name-middle       - displays the title in middle of the webpage.
+4. website-banner-name-middle-right - displays the title in middle right of webpage.
+5. website-banner-name-middle-left  - displays the title in middle left of webpage.
+6. banner-title-brief-size          - displays content below the title in medium size.
+7. banner-title-brief-middle        - displays below the middle banner title.
+8. banner-title-brief-right         - displays below the right middle banner title.
+9. banner-title-brief-left          - displays below the left middle banner title.
