@@ -1,0 +1,135 @@
+@charset "UTF-8"; 
+/* character encoding for stylesheets */
+/* 
+    Official source code of STDs UI FRAMEWORK
+    Designed developed and maintained by surajkumar under MIT LICENSE
+    version of this framework is v1.0
+*/
+:root {
+    /* Color variables */
+    --pureblack : #000000;
+    --purewhite : #FFFFFF;
+    --lightblue : #00FFFF;
+    --skyblue   : #0FA4CC;
+    --darkblue  : #0F15CC;    
+    --violet    : #CD00FF;
+    --pink      : #FF00D4;
+    --darkgrey  : #B3B3B3;
+    --lightgrey : #F5EEEE;
+    --red       : #FF0000;
+    --yellow    : #FFFB00;
+    --darkgreen : #145A32;
+    --lightgreen: #7DCEA0;
+}
+*{
+    box-sizing: border-box; 
+    /*allows users to add the padding and border within height and width. it does not extend height and width while adding padding/border.*/
+}
+body {
+    scroll-behavior: smooth; 
+    /*scrolls smoothly to the destination after selecting the section in navigation bar*/
+}
+p {
+    line-height: 150%; 
+    /*keeps the line height as 1.5 for whole paragraph in web page*/
+}
+h1 {
+    font-size: 40px;
+}
+.white-heading {
+    color: #FFFFFF;
+}
+/* website banner titles */
+.website-banner-name-middle {
+    margin-top: 200px;
+    text-align: center;
+    /*displays the title in middle of the webpage*/
+}
+.website-banner-name-middle + .banner-title-brief-middle {
+    text-align: center;
+    margin-top: -25px;
+    /* displays below the banner title */
+}
+.website-banner-name-middle-right {
+    margin-top: 200px;
+    text-align: right;
+    padding-right: 50px;
+}
+.website-banner-name-middle-right + .banner-title-brief-middle-right {
+    text-align: right;
+    padding-right: 50px;
+    /* displays below the banner title */
+}
+.website-banner-name-middle-left {
+    margin-top: 200px;
+    text-align: left;
+    padding-left: 50px;
+}
+.website-banner-name-middle-left + .banner-title-brief-middle-left {
+    text-align: left;
+    padding-right: 50px;
+    /* displays below the banner title */
+}
+.darkblue-background {
+    background-color: var(--darkblue);
+    background-size: 100% 100%;
+    margin: -8px -8px;
+    padding: 10px;
+    min-height: 300px;
+}
+/* for responsive effect */
+@media only screen and (max-width: 600px){
+    /* website banner titles */
+    .website-banner-title-size {
+        font-size: 50px;
+        /*displays the title with bigger font size*/
+    }
+    .website-banner-title-size + .banner-title-brief-size {
+        font-size: 30px;
+        /* displays below the banner title */
+    }
+}
+@media only screen and (min-width: 600px){
+    /* website banner titles */
+    .website-banner-title-size {
+        font-size: 50px;
+        /*displays the title with bigger font size*/
+    }
+    .website-banner-title-size + .banner-title-brief-size {
+        font-size: 30px;
+        /* displays below the banner title */
+    }
+}
+@media only screen and (min-width: 768px){
+    /* website banner titles */
+    .website-banner-title-size {
+        font-size: 90px;
+        /*displays the title with bigger font size*/
+    }
+    .website-banner-title-size + .banner-title-brief-size {
+        font-size: 30px;
+        /* displays below the banner title */
+    }
+}
+@media only screen and (min-width: 992px){
+    /* website banner titles */
+    .website-banner-title-size {
+        font-size: 90px;
+        /*displays the title with bigger font size*/
+    }
+    .website-banner-title-size + .banner-title-brief-size {
+        font-size: 30px;
+        /* displays below the banner title */
+    }
+}
+@media only screen and (min-width: 1200px){
+    /* website banner titles */
+    .website-banner-title-size {
+        font-size: 90px;
+        /*displays the title with bigger font size*/
+    }
+    .website-banner-title-size + .banner-title-brief-size {
+        font-size: 30px;
+        /* displays below the banner title */
+    }
+}
