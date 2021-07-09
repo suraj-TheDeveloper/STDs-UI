@@ -1,0 +1,108 @@
+@charset "UTF-8"; 
+/* character encoding for stylesheets */
+/* 
+    Official source code of STDs UI FRAMEWORK
+    Designed developed and maintained by surajkumar under MIT LICENSE
+    version of this framework is v1.0
+*/
+/* start of google fonts */
+/* lexend font */
+@font-face {
+    font-family: lexend-tera;
+    src: url("../fonts/lexendtera/LexendTera-Regular.ttf");
+}
+@font-face {
+    font-family: lexend-zeta;
+    src: url("../fonts/lexendzetta/LexendZetta-Regular.ttf");
+}
+/* montserrat font */
+@font-face {
+    font-family: montserratbold;
+    src: url("../fonts/montserrat/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: montserratitalic;
+    src: url("../fonts/montserrat/Montserrat-Italic.ttf");
+}
+@font-face {
+    font-family: montserratbolditalic;
+    src: url("../fonts/montserrat/Montserrat-BoldItalic.ttf");
+}
+@font-face {
+    font-family: montserratregular;
+    src: url("../fonts/montserrat/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: montserratmedium;
+    src: url("../fonts/montserrat/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: montserratlight;
+    src: url("../fonts/montserrat/Montserrat-Light.ttf");
+}
+/* monalternative */
+@font-face {
+    font-family: monalternativebold;
+    src: url("../fonts/monalternative/MontserratAlternates-Bold.ttf");
+}
+/* opensans */
+@font-face {
+    font-family: opensansbold;
+    src: url("../fonts/opensans/OpenSans-Bold.ttf");
+}
+@font-face {
+    font-family: opensansitalic;
+    src: url("../fonts/opensans/OpenSans-Italic.ttf");
+}
+@font-face {
+    font-family: opensanslight;
+    src: url("../fonts/opensans/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: opensansregular;
+    src: url("../fonts/opensans/OpenSans-Regular.ttf");
+}
+/* roboto */
+@font-face {
+    font-family: robotobold;
+    src: url("../fonts/roboto/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: robotoitalic;
+    src: url("../fonts/roboto/Roboto-Italic.ttf");
+}
+@font-face {
+    font-family: robotolight;
+    src: url("../fonts/roboto/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: robotoregular;
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: robotomedium;
+    src: url("../fonts/roboto/Roboto-Medium.ttf");
+}
+/* merriweather */
+@font-face {
+    font-family: merriweatherregular;
+    src: url("../fonts/merriweather/Merriweather-Regular.ttf");
+}
+@font-face {
+    font-family: merriweatherbold;
+    src: url("../fonts/merriweather/Merriweather-Bold.ttf");
+}
+@font-face {
+    font-family: merriweatherlight;
+    src: url("../fonts/merriweather/Merriweather-Light.ttf");
+}
+@font-face {
+    font-family: merriweatheritalic;
+    src: url("../fonts/merriweather/Merriweather-Italic.ttf");
+}
+/* patua */
+@font-face {
+    font-family: patua;
+    src: url("../fonts/patua/PatuaOne-Regular.ttf");
+}
+/* end of google fonts */

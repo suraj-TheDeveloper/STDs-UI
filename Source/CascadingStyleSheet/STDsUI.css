@@ -11,7 +11,8 @@
     --purewhite : #FFFFFF;
     --lightblue : #00FFFF;
     --skyblue   : #0FA4CC;
-    --darkblue  : #0F15CC;    
+    --darkblue  : #0F15CC;  
+    --blue      : #0000FF;  
     --violet    : #CD00FF;
     --pink      : #FF00D4;
     --darkgrey  : #B3B3B3;
@@ -21,97 +22,6 @@
     --darkgreen : #145A32;
     --lightgreen: #7DCEA0;
 }
-/* start of google fonts */
-/* lexend font */
-@font-face {
-    font-family: lexend-tera;
-    src: url("../fonts/lexendtera/LexendTera-Regular.ttf");
-}
-@font-face {
-    font-family: lexend-zeta;
-    src: url("../fonts/lexendzetta/LexendZetta-Regular.ttf");
-}
-/* montserrat font */
-@font-face {
-    font-family: montserratbold;
-    src: url("../fonts/montserrat/Montserrat-Bold.ttf");
-}
-@font-face {
-    font-family: montserratitalic;
-    src: url("../fonts/montserrat/Montserrat-Italic.ttf");
-}
-@font-face {
-    font-family: montserratbolditalic;
-    src: url("../fonts/montserrat/Montserrat-BoldItalic.ttf");
-}
-@font-face {
-    font-family: montserratregular;
-    src: url("../fonts/montserrat/Montserrat-Regular.ttf");
-}
-@font-face {
-    font-family: montserratmedium;
-    src: url("../fonts/montserrat/Montserrat-Medium.ttf");
-}
-@font-face {
-    font-family: montserratlight;
-    src: url("../fonts/montserrat/Montserrat-Light.ttf");
-}
-/* opensans */
-@font-face {
-    font-family: opensansbold;
-    src: url("../fonts/opensans/OpenSans-Bold.ttf");
-}
-@font-face {
-    font-family: opensansitalic;
-    src: url("../fonts/opensans/OpenSans-Italic.ttf");
-}
-@font-face {
-    font-family: opensanslight;
-    src: url("../fonts/opensans/OpenSans-Light.ttf");
-}
-@font-face {
-    font-family: opensansregular;
-    src: url("../fonts/opensans/OpenSans-Regular.ttf");
-}
-/* roboto */
-@font-face {
-    font-family: robotobold;
-    src: url("../fonts/roboto/Roboto-Bold.ttf");
-}
-@font-face {
-    font-family: robotoitalic;
-    src: url("../fonts/roboto/Roboto-Italic.ttf");
-}
-@font-face {
-    font-family: robotolight;
-    src: url("../fonts/roboto/Roboto-Light.ttf");
-}
-@font-face {
-    font-family: robotoregular;
-    src: url("../fonts/roboto/Roboto-Regular.ttf");
-}
-@font-face {
-    font-family: robotomedium;
-    src: url("../fonts/roboto/Roboto-Medium.ttf");
-}
-/* merriweather */
-@font-face {
-    font-family: merriweatherregular;
-    src: url("../fonts/merriweather/Merriweather-Regular.ttf");
-}
-@font-face {
-    font-family: merriweatherbold;
-    src: url("../fonts/merriweather/Merriweather-Bold.ttf");
-}
-@font-face {
-    font-family: merriweatherlight;
-    src: url("../fonts/merriweather/Merriweather-Light.ttf");
-}
-@font-face {
-    font-family: merriweatheritalic;
-    src: url("../fonts/merriweather/Merriweather-Italic.ttf");
-}
-/* end of google fonts */
 *{
     box-sizing: border-box; 
 }
@@ -119,7 +29,7 @@ body {
     scroll-behavior: smooth; 
 }
 p {
-    line-height: 150%; 
+    line-height: 130%; 
 }
 h1 {
     font-size: 40px;
@@ -154,6 +64,38 @@ h1 {
     text-align: left;
     padding-right: 50px;
 }
+/* end of website banners */
+/* designing headings */
+.header-left {
+    text-align: left;
+    font-size: 40px;
+    font-family: monalternativebold;
+}
+.header-left ~ .header-explanation {
+    font-size: 18px;
+    text-align: left;
+    font-family: montserratregular;
+}
+.header-right {
+    text-align: right;
+    font-size: 40px;
+    font-family: monalternativebold;
+}
+.header-right ~ .header-explanation {
+    font-size: 18px;
+    text-align: right;
+    font-family: montserratregular;
+}
+.header-center {
+    font-size: 40px;
+    text-align: center;
+    font-family: monalternativebold;
+}
+.header-center ~ .header-explanation {
+    font-size: 18px;
+    text-align: center;
+    font-family: montserratregular;
+}
 /* background with colors */
 .darkblue-background {
     background-color: var(--darkblue);
@@ -162,8 +104,118 @@ h1 {
     padding: 10px;
     min-height: 300px;
 }
+.violet-background {
+    background-color: var(--violet);
+    background-size: 100% 100%;
+    margin-top: 15px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 10px;
+    min-height: 300px;
+}
+.lightgrey-background {
+    background-color: #f4f4f4;
+    background-size: 100% 100%;
+    margin-top: 15px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 10px;
+    min-height: 300px;
+}
+/* end of background */
+/* form designing */
+.form-field {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    border: 1px solid;
+}
+input:focus {
+    box-shadow: 0 0 10px var(--blue);
+    border: none;
+    outline: none;
+}
+label {
+    margin-bottom: 10px;
+    font-family: montserratregular;
+}
+.form-field-group {
+    margin-top: 30px;
+}
+.center-text {
+    text-align: center;
+}
+/* end of form */
+/* start of button designing */
+.blue-button {
+    background-color: var(--blue);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top: 10px;
+}
+/* end of button designing */
+/* box designing */
+.coding-box {
+    border: 1px solid var(--pureblack); 
+    min-width: 500px; 
+    min-height: 200px; 
+    padding: 10px; 
+    margin: auto; 
+    color: white; 
+    background-color: var(--pureblack);
+    border-radius: 10px;
+}
+.content-box {
+    background-color: var(--purewhite);
+    padding: 30px;
+    border-radius: 5px;
+    min-width: 500px; 
+    min-height: 200px; 
+}
+.shadow {
+    box-shadow: 10px 10px 10px black;
+}
+/* end of box */
+/* paragraph */
+.paragraph {
+    line-height: 1.8;
+    font-size: 18px;
+    font-family: montserratregular;
+    text-align: justify;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}  
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+[class*="col-"] {
+    width: 100%;
+}
 /* for responsive effect */
 @media only screen and (max-width: 600px){
+    /* responsive coding */
+    /* For tablets: */
+    /* For mobile phones: */
+    
+    .column-s-1 {width: 8.33%;}
+    .column-s-2 {width: 16.66%;}
+    .column-s-3 {width: 25%;}
+    .column-s-4 {width: 33.33%;}
+    .column-s-5 {width: 41.66%;}
+    .column-s-6 {width: 50%;}
+    .column-s-7 {width: 58.33%;}
+    .column-s-8 {width: 66.66%;}
+    .column-s-9 {width: 75%;}
+    .column-s-10 {width: 83.33%;}
+    .column-s-11 {width: 91.66%;}
+    .column-s-12 {width: 100%;}
     /* website banner titles */
     .website-banner-title-size {
         font-size: 60px;
@@ -175,6 +227,20 @@ h1 {
     }
 }
 @media only screen and (min-width: 600px){
+    /* responsive coding */
+    /* For tablets: */
+    .column-s-1 {width: 8.33%;}
+    .column-s-2 {width: 16.66%;}
+    .column-s-3 {width: 25%;}
+    .column-s-4 {width: 33.33%;}
+    .column-s-5 {width: 41.66%;}
+    .column-s-6 {width: 50%;}
+    .column-s-7 {width: 58.33%;}
+    .column-s-8 {width: 66.66%;}
+    .column-s-9 {width: 75%;}
+    .column-s-10 {width: 83.33%;}
+    .column-s-11 {width: 91.66%;}
+    .column-s-12 {width: 100%;}
     /* website banner titles */
     .website-banner-title-size {
         font-size: 60px;
@@ -186,6 +252,19 @@ h1 {
     }
 }
 @media only screen and (min-width: 768px){
+    /* responsive coding */
+    .column-m-1 {width: 8.33%;}
+    .column-m-2 {width: 16.66%;}
+    .column-m-3 {width: 25%;}
+    .column-m-4 {width: 33.33%;}
+    .column-m-5 {width: 41.66%;}
+    .column-m-6 {width: 50%;}
+    .column-m-7 {width: 58.33%;}
+    .column-m-8 {width: 66.66%;}
+    .column-m-9 {width: 75%;}
+    .column-m-10 {width: 83.33%;}
+    .column-m-11 {width: 91.66%;}
+    .column-m-12 {width: 100%;}
     /* website banner titles */
     .website-banner-title-size {
         font-size: 90px;
@@ -197,6 +276,18 @@ h1 {
     }
 }
 @media only screen and (min-width: 992px){
+    .column-l-1 {width: 8.33%;}
+    .column-l-2 {width: 16.66%;}
+    .column-l-3 {width: 25%;}
+    .column-l-4 {width: 33.33%;}
+    .column-l-5 {width: 41.66%;}
+    .column-l-6 {width: 50%;}
+    .column-l-7 {width: 58.33%;}
+    .column-l-8 {width: 66.66%;}
+    .column-l-9 {width: 75%;}
+    .column-l-10 {width: 83.33%;}
+    .column-l-11 {width: 91.66%;}
+    .column-l-12 {width: 100%;}
     /* website banner titles */
     .website-banner-title-size {
         font-size: 90px;
@@ -208,6 +299,18 @@ h1 {
     }
 }
 @media only screen and (min-width: 1200px){
+    .column-xl-1 {width: 8.33%;}
+    .column-xl-2 {width: 16.66%;}
+    .column-xl-3 {width: 25%;}
+    .column-xl-4 {width: 33.33%;}
+    .column-xl-5 {width: 41.66%;}
+    .column-xl-6 {width: 50%;}
+    .column-xl-7 {width: 58.33%;}
+    .column-xl-8 {width: 66.66%;}
+    .column-xl-9 {width: 75%;}
+    .column-xl-10 {width: 83.33%;}
+    .column-xl-11 {width: 91.66%;}
+    .column-xl-12 {width: 100%;}
     /* website banner titles */
     .website-banner-title-size {
         font-size: 90px;
