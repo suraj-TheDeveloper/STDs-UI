@@ -8,3 +8,19 @@ The classes and its usage is given below.
 7. banner-title-brief-middle        - displays below the middle banner title.
 8. banner-title-brief-right         - displays below the right middle banner title.
 9. banner-title-brief-left          - displays below the left middle banner title.
+10. header-left			- displays the heading in leftside.
+11. header-right			- displays the heading in rightside.
+12. header-center			- displays the heading in center.
+13. header-explanation			- used below the header classes for the neat and clear view.
+14. darkblue-background		- displays with background of darkblue.
+15. violet-background			- displays with background of violet.
+16. lightgrey-background		- displays with background of light grey.
+17. form-field				- creates the form field very attractive.
+18. form-field-group			- displays the group for form fields with correct height.
+19. input:focus			- displays the particular field wiht shadow at back when clicking.
+20. center-text			- displays the text in center.
+21. blue-button			- displays the button in blue color.
+22. coding-box				- used particularly to display code.
+23. content-box			- used to display a content inside a box.
+24. shadow				- displays the shadow for element.
+25. paragraph				- it is mainly used to display a paragraph neatly.
