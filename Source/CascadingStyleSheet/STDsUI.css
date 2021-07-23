@@ -29,7 +29,7 @@ body {
     scroll-behavior: smooth; 
 }
 p {
-    line-height: 130%; 
+    line-height: 1.8; 
 }
 h1 {
     font-size: 40px;
@@ -160,21 +160,14 @@ label {
 /* box designing */
 .coding-box {
     border: 1px solid var(--pureblack); 
-    min-width: 500px; 
-    min-height: 200px; 
+    width: 100%; 
     padding: 10px; 
     margin: auto; 
     color: white; 
     background-color: var(--pureblack);
     border-radius: 10px;
 }
-.content-box {
-    background-color: var(--purewhite);
-    padding: 30px;
-    border-radius: 5px;
-    min-width: 500px; 
-    min-height: 200px; 
-}
+
 .shadow {
     box-shadow: 10px 10px 10px black;
 }
@@ -186,138 +179,4 @@ label {
     font-family: montserratregular;
     text-align: justify;
 }
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}  
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-}
-[class*="col-"] {
-    width: 100%;
-}
-/* for responsive effect */
-@media only screen and (max-width: 600px){
-    /* responsive coding */
-    /* For tablets: */
-    /* For mobile phones: */
-    
-    .column-s-1 {width: 8.33%;}
-    .column-s-2 {width: 16.66%;}
-    .column-s-3 {width: 25%;}
-    .column-s-4 {width: 33.33%;}
-    .column-s-5 {width: 41.66%;}
-    .column-s-6 {width: 50%;}
-    .column-s-7 {width: 58.33%;}
-    .column-s-8 {width: 66.66%;}
-    .column-s-9 {width: 75%;}
-    .column-s-10 {width: 83.33%;}
-    .column-s-11 {width: 91.66%;}
-    .column-s-12 {width: 100%;}
-    /* website banner titles */
-    .website-banner-title-size {
-        font-size: 60px;
-        font-family: merriweatherbold;
-    }
-    .website-banner-title-size + .banner-title-brief-size {
-        font-size: 30px;
-        font-family: montserratlight;
-    }
-}
-@media only screen and (min-width: 600px){
-    /* responsive coding */
-    /* For tablets: */
-    .column-s-1 {width: 8.33%;}
-    .column-s-2 {width: 16.66%;}
-    .column-s-3 {width: 25%;}
-    .column-s-4 {width: 33.33%;}
-    .column-s-5 {width: 41.66%;}
-    .column-s-6 {width: 50%;}
-    .column-s-7 {width: 58.33%;}
-    .column-s-8 {width: 66.66%;}
-    .column-s-9 {width: 75%;}
-    .column-s-10 {width: 83.33%;}
-    .column-s-11 {width: 91.66%;}
-    .column-s-12 {width: 100%;}
-    /* website banner titles */
-    .website-banner-title-size {
-        font-size: 60px;
-        font-family: merriweatherbold;
-    }
-    .website-banner-title-size + .banner-title-brief-size {
-        font-size: 30px;
-        font-family: montserratlight;
-    }
-}
-@media only screen and (min-width: 768px){
-    /* responsive coding */
-    .column-m-1 {width: 8.33%;}
-    .column-m-2 {width: 16.66%;}
-    .column-m-3 {width: 25%;}
-    .column-m-4 {width: 33.33%;}
-    .column-m-5 {width: 41.66%;}
-    .column-m-6 {width: 50%;}
-    .column-m-7 {width: 58.33%;}
-    .column-m-8 {width: 66.66%;}
-    .column-m-9 {width: 75%;}
-    .column-m-10 {width: 83.33%;}
-    .column-m-11 {width: 91.66%;}
-    .column-m-12 {width: 100%;}
-    /* website banner titles */
-    .website-banner-title-size {
-        font-size: 90px;
-        font-family: merriweatherbold;
-    }
-    .website-banner-title-size + .banner-title-brief-size {
-        font-size: 30px;
-        font-family: montserratlight;
-    }
-}
-@media only screen and (min-width: 992px){
-    .column-l-1 {width: 8.33%;}
-    .column-l-2 {width: 16.66%;}
-    .column-l-3 {width: 25%;}
-    .column-l-4 {width: 33.33%;}
-    .column-l-5 {width: 41.66%;}
-    .column-l-6 {width: 50%;}
-    .column-l-7 {width: 58.33%;}
-    .column-l-8 {width: 66.66%;}
-    .column-l-9 {width: 75%;}
-    .column-l-10 {width: 83.33%;}
-    .column-l-11 {width: 91.66%;}
-    .column-l-12 {width: 100%;}
-    /* website banner titles */
-    .website-banner-title-size {
-        font-size: 90px;
-        font-family: merriweatherbold;
-    }
-    .website-banner-title-size + .banner-title-brief-size {
-        font-size: 30px;
-        font-family: montserratlight;
-    }
-}
-@media only screen and (min-width: 1200px){
-    .column-xl-1 {width: 8.33%;}
-    .column-xl-2 {width: 16.66%;}
-    .column-xl-3 {width: 25%;}
-    .column-xl-4 {width: 33.33%;}
-    .column-xl-5 {width: 41.66%;}
-    .column-xl-6 {width: 50%;}
-    .column-xl-7 {width: 58.33%;}
-    .column-xl-8 {width: 66.66%;}
-    .column-xl-9 {width: 75%;}
-    .column-xl-10 {width: 83.33%;}
-    .column-xl-11 {width: 91.66%;}
-    .column-xl-12 {width: 100%;}
-    /* website banner titles */
-    .website-banner-title-size {
-        font-size: 90px;
-        font-family: merriweatherbold;
-    }
-    .website-banner-title-size + .banner-title-brief-size {
-        font-size: 30px;
-        font-family: montserratlight;
-    }
-}
+
